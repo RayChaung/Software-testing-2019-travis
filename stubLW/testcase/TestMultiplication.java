@@ -126,7 +126,7 @@ public class TestMultiplication {
      		when(factorizationStub.factorizationRoot(-1,true)).thenReturn(1);
 
     		Multiplication multiplication = new Multiplication();
-     		int actualANS = multiplication.multiplicationWithFactorization(factorizationS    tub, expectedANS, true);
+     		int actualANS = multiplication.multiplicationWithFactorization(factorizationStub, expectedANS, true);
 
      		assertEquals(expectedANS, actualANS);
 	}
