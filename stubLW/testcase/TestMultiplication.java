@@ -90,7 +90,7 @@ public class TestMultiplication {
 		when(factorizationStub.factorization(expectedANS)).thenReturn(array);
 
 		Multiplication multiplication = new Multiplication();
-		int actualANS = multiplication.multiplicationWithFactorizationAbsolute(factor    izationStub, expectedANS);
+		int actualANS = multiplication.multiplicationWithFactorizationAbsolute(factorizationStub, expectedANS);
 		assertEquals(expectedANS, actualANS);
 	}
 
@@ -109,7 +109,7 @@ public class TestMultiplication {
 		when(factorizationStub.factorization(expectedANS)).thenReturn(array);
 
 		Multiplication multiplication = new Multiplication();
-		int actualANS = multiplication.multiplicationWithFactorizationAbsolute(factor    izationStub, expectedANS);
+		int actualANS = multiplication.multiplicationWithFactorizationAbsolute(factorizationStub, expectedANS);
 
 		assertEquals(expectedANS, actualANS);
  	}
