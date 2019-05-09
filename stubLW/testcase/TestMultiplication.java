@@ -118,7 +118,7 @@ public class TestMultiplication {
 	public void testMore() {
 		//Test two number multiplications
 		int a = 3;
-		int expectedANS = -1
+		int expectedANS = -1;
 		ArrayList<Integer> array = new ArrayList<Integer>(Arrays.asList(a));
 
      		Factorization factorizationStub = mock(Factorization.class);
